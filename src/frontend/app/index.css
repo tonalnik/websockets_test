@@ -1,0 +1,19 @@
+body {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	width: 100%;
+	height: 100%;
+
+	font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+
+	background-color: #484c4f;
+	color: floralwhite;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}

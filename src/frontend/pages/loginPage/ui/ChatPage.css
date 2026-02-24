@@ -1,0 +1,10 @@
+.chat-page {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.chat-page-header {
+	width: 50vw;
+	padding: 1rem 1rem 1rem calc(1rem + 10px);
+}

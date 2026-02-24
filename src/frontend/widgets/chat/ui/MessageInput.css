@@ -1,0 +1,29 @@
+.message-input {
+	display: flex;
+	width: 100%;
+	height: 50px;
+}
+
+.message-input-container {
+	textarea {
+		height: 100%;
+		width: 100%;
+		resize: none;
+	}
+	width: 100%;
+}
+
+.message-button-container {
+	display: flex;
+	height: 100%;
+	width: 10%;
+	padding: 7px;
+	align-items: center;
+	justify-content: center;
+
+	button {
+		width: 100%;
+		height: 100%;
+		cursor: pointer;
+	}
+}

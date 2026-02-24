@@ -1,0 +1,24 @@
+.chat-container {
+	height: 80vh;
+	width: 50vw;
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.chat-message-container.my {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.chat-messages {
+	display: flex;
+	flex-direction: column;
+	overflow-y: auto;
+	scrollbar-gutter: stable;
+}
+
+.chat-input {
+	padding-top: 0.5rem;
+}

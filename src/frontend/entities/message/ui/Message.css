@@ -1,0 +1,36 @@
+.message {
+	width: fit-content;
+	display: flex;
+	flex-direction: column;
+	margin: 5px 0;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.15);
+
+	.message-header {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		gap: 0.5rem;
+	}
+
+	.message-author {
+		font-weight: bold;
+	}
+
+	.message-time {
+		font-size: 0.8rem;
+		color: #999;
+	}
+
+	.message-content {
+		width: fit-content;
+	}
+}
+
+.message.my {
+	align-items: flex-end;
+
+	.message-header {
+		flex-direction: row-reverse;
+	}
+}
