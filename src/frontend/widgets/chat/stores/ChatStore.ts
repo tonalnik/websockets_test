@@ -12,6 +12,7 @@ const initialState: ChatState = {
 };
 
 let ws: WebSocket;
+const WEBSOCKET_URL = "ws://localhost:3000/ws/chat";
 
 export const initMessages = createAsyncThunk<
 	IMessage[],
@@ -19,7 +20,7 @@ export const initMessages = createAsyncThunk<
 	{ dispatch: AppDispatch }
 >("chat/initMessages", async (_, { dispatch }) => {
 	return new Promise<IMessage[]>((resolve, reject) => {
-		const socket = new WebSocket("ws://localhost:3000/ws/chat");
+		const socket = new WebSocket(WEBSOCKET_URL);
 		ws = socket;
 
 		socket.onopen = () => {
